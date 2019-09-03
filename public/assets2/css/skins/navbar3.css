@@ -1,0 +1,32 @@
+.navbar-default,
+.layout-topnav .top-bar {
+  background: #0bc3c3;
+  background: -moz-linear-gradient(left, #0bc3c3 0%, #009cff 100%);
+  background: -webkit-linear-gradient(left, #0bc3c3 0%, #009cff 100%);
+  background: linear-gradient(to right, #0bc3c3 0%, #009cff 100%);
+}
+
+.navbar-form.search-form .form-control, .navbar-form.search-form .form-control:focus {
+  background-color: #20cada;
+  border-color: #5cd5e0;
+}
+
+.navbar-form.search-form .btn {
+  color: #ddfafd;
+}
+
+.navbar-form.search-form ::-webkit-input-placeholder {
+  color: rgba(221, 250, 253, 0.5);
+}
+
+.navbar-form.search-form :-moz-placeholder {
+  color: rgba(221, 250, 253, 0.5);
+}
+
+.navbar-form.search-form ::-moz-placeholder {
+  color: rgba(221, 250, 253, 0.5);
+}
+
+.navbar-form.search-form :-ms-input-placeholder {
+  color: rgba(221, 250, 253, 0.5);
+}

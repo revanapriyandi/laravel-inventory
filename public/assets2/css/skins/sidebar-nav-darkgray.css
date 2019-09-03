@@ -1,0 +1,102 @@
+#wrapper .sidebar {
+  background-color: #383838;
+}
+
+.sidebar .nav li > a {
+  color: #929598;
+}
+
+.sidebar .nav li > a:hover, .sidebar .nav li > a.active {
+  background-color: #333333;
+}
+
+.sidebar .nav li > a[aria-expanded="true"], .sidebar .nav li > a.active {
+  background-color: transparent;
+  color: #00AAFF;
+}
+
+.sidebar .nav li > a.active:hover {
+  background-color: #333333;
+}
+
+.sidebar .nav li > a:focus {
+  background-color: transparent;
+}
+
+.sidebar .nav .nav {
+  background-color: #383838;
+}
+
+.sidebar .nav .nav > li > a.active {
+  background-color: #333333;
+  color: #929598;
+}
+
+.sidebar-minified .sidebar .nav > li:hover > a,
+.sidebar-minified .sidebar .nav > li:hover .collapse li:hover > a {
+  background-color: #383838;
+  color: #00AAFF;
+}
+
+.sidebar-minified .sidebar .collapse {
+  background: #383838;
+}
+
+.sidebar-minified .sidebar .nav > li:hover > a,
+.sidebar-minified .sidebar .nav li:hover > a > .title {
+  background: #353535;
+}
+
+.btn-toggle-minified {
+  background: #303030;
+  color: #929598;
+  border-color: #2b2b2b;
+}
+
+.btn-toggle-minified:hover {
+  color: #929598;
+  background: #2e2e2e;
+}
+
+.right-sidebar {
+  background-color: #383838;
+  color: #f1f1f1;
+}
+
+.right-sidebar .widget-header {
+  background-color: #353535;
+  border-color: #333333;
+}
+
+.right-sidebar .icon-transparent-area .badge {
+  border-color: #383838;
+}
+
+.right-sidebar .list-project-progress .project-name,
+.right-sidebar .list-project-progress .percentage {
+  color: #f1f1f1;
+}
+
+.right-sidebar .list-file-simple a, .right-sidebar .list-file-simple a:hover, .right-sidebar .list-file-simple a:focus {
+  color: #f1f1f1;
+}
+
+.right-sidebar .list-file-simple span {
+  color: #f1f1f1;
+}
+
+.right-sidebar .btn-default {
+  background-color: #2e2e2e;
+  border-color: #292929;
+  color: #f1f1f1;
+}
+
+.right-sidebar .btn-default:hover, .right-sidebar .btn-default:focus {
+  background-color: #292929;
+  border-color: #242424;
+}
+
+.right-sidebar .btn-default.active:hover, .right-sidebar .btn-default.active:focus, .right-sidebar .btn-default:active:hover, .right-sidebar .btn-default:active:focus {
+  border-color: #242424;
+  color: #f1f1f1;
+}
